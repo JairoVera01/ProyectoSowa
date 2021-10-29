@@ -10,4 +10,12 @@ package model;
  */
 public class Usuarios {
     
+    private int id;
+    private String nombre;
+    private String apellido;
+    private String contraseña;
+    private String correo;
+    private int dni;
+    private int celular;
+        
 }
