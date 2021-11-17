@@ -10,22 +10,22 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <title>Listado de personas</title>
+        <title>Listado de socios</title>
     </head>
     <body>
-        <h1 class="text-center text-muted">Listado de Personas</h1>
+        <h1 class="text-center text-muted">Listado de Socios</h1>
         <div class="container-md">
         <p>
             <a href="<c:url value ="home.htm"></c:url>"class="btn btn-dark">
             Regresar</a>
             <a href="<c:url value ="add.htm"></c:url>"class="btn btn-dark">
-            Crear nueva persona</a>
+            Crear nuevo socio</a>
         </p>
         <table class="table table-striped table-bordered table-hover">
             <thead>
                 <th>ID</th>
                 <th>Nombre</th>
-                <th>Apellido</th>
+                <th>Tipo de restaurante</th>
                 <th>Correo</th>
                 <th>Telefono</th>
                 <th>Opciones</th>
@@ -35,7 +35,7 @@
                     <tr>
                         <td><c:out value="${dato.id}"></c:out></td>
                         <td><c:out value="${dato.nombre}"></c:out></td>
-                        <td><c:out value="${dato.apellido}"></c:out></td>
+                        <td><c:out value="${dato.tipo_restaurante}"></c:out></td>
                         <td><c:out value="${dato.correo}"></c:out></td>
                         <td><c:out value="${dato.telefono}"></c:out></td>
                         <td><a href="ver.htm?id=${dato.id}" class="btn btn-dark">Ver Información</a>

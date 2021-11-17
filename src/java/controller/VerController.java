@@ -35,7 +35,7 @@ public class VerController {
         //Se establece un objeto persona para acceder a los datos
         mav.setViewName("ver");
         mav.addObject("persona",new Persona(id,datos.getNombre(),
-        datos.getApellido(),
+        datos.gettipo_restaurante(),
         datos.getCorreo(),
         datos.getTelefono(),
         datos.getResumen_cv(),
@@ -58,7 +58,7 @@ public class VerController {
             public Persona extractData(ResultSet rs) throws SQLException,DataAccessException{
                 if(rs.next()){
                     persona.setNombre(rs.getString("nombre"));
-                    persona.setApellido(rs.getString("apellido"));
+                    persona.settipo_restaurante(rs.getString("apellido"));
                     persona.setCorreo(rs.getString("correo"));
                     persona.setTelefono(rs.getString("telefono"));
                     persona.setResumen_cv(rs.getString("resumen_cv"));

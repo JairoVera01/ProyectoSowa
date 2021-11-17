@@ -34,8 +34,8 @@
                 <form:input path="nombre" cssClass="form-control"></form:input>
                 </p>
                 <p>
-                <form:label path="apellido">Apellido: </form:label> 
-                <form:input path="apellido" cssClass="form-control"></form:input>                    
+                <form:label path="tipo_restaurante">Tipo de restaurante: </form:label> 
+                <form:input path="tipo_restaurante" cssClass="form-control"></form:input>                    
                 </p>
                 <p>
                 <form:label path="correo">Direccion de correo: </form:label>
@@ -46,7 +46,7 @@
                 <form:input path="telefono" cssClass="form-control"></form:input>
                 </p>
                 <p>
-                <form:label path="resumen_cv">Hoja de Vida: </form:label>
+                <form:label path="resumen_cv">Descripcion: </form:label>
                 <form:textarea path="resumen_cv" cssClass="form-control"></form:textarea>
                 </p>
                 <p>

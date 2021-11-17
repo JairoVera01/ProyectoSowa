@@ -10,7 +10,7 @@ public class Persona {
     //Se crean los campos segun base de datos 
     private int id;
     private String nombre;
-    private String apellido;
+    private String tipo_restaurante;
     private String correo;
     private String telefono;
     private String resumen_cv;
@@ -19,10 +19,10 @@ public class Persona {
      //Generamos el constructor y los metodos GET Y SET para acceder a los datos 
     public Persona(){
     }
-       public Persona(int id, String nombre, String apellido, String correo, String telefono, String resumen_cv, String url_imagen) {
+       public Persona(int id, String nombre, String tipo_restaurante, String correo, String telefono, String resumen_cv, String url_imagen) {
         this.id = id;
         this.nombre = nombre;
-        this.apellido = apellido;
+        this.tipo_restaurante = tipo_restaurante;
         this.correo = correo;
         this.telefono = telefono;
         this.resumen_cv = resumen_cv;
@@ -45,12 +45,12 @@ public class Persona {
         this.nombre = nombre;
     }
 
-    public String getApellido() {
-        return apellido;
+    public String gettipo_restaurante() {
+        return tipo_restaurante;
     }
 
-    public void setApellido(String apellido) {
-        this.apellido = apellido;
+    public void settipo_restaurante(String apellido) {
+        this.tipo_restaurante = apellido;
     }
 
     public String getCorreo() {

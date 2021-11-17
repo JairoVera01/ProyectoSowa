@@ -20,8 +20,8 @@ public class PersonaValidar implements Validator{
         Persona persona = (Persona)o;
         ValidationUtils.rejectIfEmptyOrWhitespace(errors,"nombre",
                 "required.nombre","ERROR:El campo nombre es obligatorio!!");
-        ValidationUtils.rejectIfEmptyOrWhitespace(errors,"apellido",
-                "required.apellido","ERROR:El campo apellido es obligatorio!!");
+        ValidationUtils.rejectIfEmptyOrWhitespace(errors,"tipo_restaurante",
+                "required.apellido","ERROR:El campo tipo_restaurante es obligatorio!!");
         ValidationUtils.rejectIfEmptyOrWhitespace(errors,"correo",
                 "required.correo","ERROR:El campo video es obligatorio!!");
         ValidationUtils.rejectIfEmptyOrWhitespace(errors,"telefono",

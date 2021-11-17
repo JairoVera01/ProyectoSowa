@@ -35,7 +35,7 @@
                        <%--Datos seccion del 70% --%> 
                           <article class="col-6 col-12-xsmall work-item">
                               <div clases="d-flex justify-content-around">
-                                  <h1> ${persona.nombre} </h1><h2 class="text-secondary">${persona.apellido}</h2>
+                                  <h1> ${persona.nombre} </h1><h2 class="text-secondary">${persona.tipo_restaurante}</h2>
                               </div>
                               
                               <hr>
