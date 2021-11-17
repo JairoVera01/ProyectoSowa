@@ -12,10 +12,10 @@
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
-					<a href="#" class="image avatar"><img src="${pageContext.request.contextPath}/resources/images/upnLogo.png" alt="" /></a>
-                                        <h1><i>Somos Strata</i>, un super equipo<br/>
-					preparado para enfrentar los más grandes retos<br/>
-					desde la <a href="http://upn.edu.pe" target="_blank">Universidad Privada del Norte</a>.</h1>
+					<a href="#" class="image avatar"><img src="${pageContext.request.contextPath}/resources/images/aldanago_logo.jpg" alt="" /></a>
+                                        <h1><strong><i>Somos AldanaGo</i></strong>, un emprendimiento encagardo del envio de tus productos o servicios<br/>
+					preparado para llegar al cliente final.<br/>
+                                        Encuentranos en nuestras redes sociales como: <a href="https://www.instagram.com/aldanago__/" target="_blank"><strong>AldanaGo</strong></a>.</h1>
 				</div>
 			</header>
 		<!-- Main -->
