@@ -58,7 +58,7 @@ public class VerController {
             public Persona extractData(ResultSet rs) throws SQLException,DataAccessException{
                 if(rs.next()){
                     persona.setNombre(rs.getString("nombre"));
-                    persona.settipo_restaurante(rs.getString("apellido"));
+                    persona.settipo_restaurante(rs.getString("tipo_restaurante"));
                     persona.setCorreo(rs.getString("correo"));
                     persona.setTelefono(rs.getString("telefono"));
                     persona.setResumen_cv(rs.getString("resumen_cv"));

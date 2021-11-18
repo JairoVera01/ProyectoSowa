@@ -24,6 +24,7 @@
 					<section id="one">
 						<header class="major">
                                                     <h2>Bienvenidos a AldanaGo<br />
+                                                        <hr>
 							Conoce a nuestro staff de socios.</h2>
 						</header>
 						<p>Contamos con un amplio staff de socios de diferentes tipos de comida, aperitivos, comida rapido y servicios. Nuestra flota de delivey se encagará de recoger 
@@ -34,21 +35,22 @@
 						<h2>Nuestros socios:</h2>
                                                 <div class="row">
                                                 <c:forEach items="${datosPersona}" var="dato"> 
-                                                  <article class="col-6 col-12-xsmall work-item">
-								<a  href="${dato.url_imagen}" class="image fit thumb">
-                                                                <img src="${dato.url_imagen}" alt="" /></a>
-                                                                <h3 >
-                                                                    <a href="ver.htm?id=${dato.id}" style="color: black">
-                                                                    ${dato.nombre}<br>${dato.tipo_restaurante}
-                                                                    </a>
-                                                                    </h3>
-								<p>${dato.resumen_cv}</p>
-                                                  </article> 
-                                               </c:forEach> 
-                                                       </div>
+                                                    <article class="col-6 col-12-xsmall work-item">
+							<a  href="${dato.url_imagen}" class="image fit thumb">
+                                                        <img src="${dato.url_imagen}" alt="" /></a>
+                                                        <h3 >
+                                                        <a href="ver.htm?id=${dato.id}" style="color: black">
+                                                        ${dato.nombre}<br>${dato.tipo_restaurante}
+                                                        </a>
+                                                        </h3>
+							<p>${dato.resumen_cv}</p>
+                                                    </article> 
+                                                </c:forEach> 
+                                                </div>
+                                                <hr>
          					<ul class="actions">
 						<li><a href="listar.htm" class="button">Listar Socios</a></li>
-                                                <li><a href="add.htm" class="button">Agregar nuevo socio...</a></li>
+                                                <li><a href="add.htm" class="button">Agregar Socio</a></li>
 						</ul>
 					</section>
 			</div>
@@ -56,11 +58,15 @@
 			<footer id="footer">
 				<div class="inner">
 					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
+                                            <li><a href="https://www.instagram.com/aldanago__/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://wa.me/51965816742"  target="_blank" class="icon brands fa-whatsapp"><span class="label">WhatsApp</span></a></li>
+						<li><a href="mailto:fj.verachamorro@gmail.com" target="_blank" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+                                                <li><a download="" href="${pageContext.request.contextPath}../../resources/carta/carta_prueba.pdf" class="icon solid fa-download" ></a></li>
+                                        </ul>
+                                    <div>
+                                        <h1>Mapa de nuestro local:</h1>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1379.7710083628083!2d-76.87656538034186!3d-12.003416520471527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c3b3b0f1e499%3A0xe2b0648e1ed8f3c5!2sPoliclinico%20Carapongo%20Medical%20Center!5e0!3m2!1ses-419!2spe!4v1637192746965!5m2!1ses-419!2spe" width="500" height="180" style="border-radius: 10px;" allowfullscreen="" loading="lazy"></iframe>
+                                    </div>
 					<ul class="copyright">
 						<li>&copy;AldanaGo <b> Flota de delivery</b></li>
 					</ul>

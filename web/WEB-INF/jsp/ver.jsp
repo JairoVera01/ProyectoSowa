@@ -17,7 +17,7 @@
             <nav arial-label ="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item" aria-current="page">
-                        <a href="persona.htm">Listado de personas</a>
+                        <a href="listar.htm">Listado de personas</a>
                     </li>
                     <li class="breadcrumb-item" aria-current="page">
                         ${persona.nombre}
@@ -44,12 +44,10 @@
                               <div class="d-flex justify-content-around">
                                   <p class="fst-italic">${persona.correo} </p>
                                   <p class="fw-bold" >${persona.telefono}  </p>
-                              </div>
-                              
+                              </div> 
                           </article> 
                     </div>
                     </div>
-
         </div>
     </body>
 </html>
