@@ -16,19 +16,13 @@
     <body>
         <div class="container-md">
             <nav aria-label ="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item" aria-current="page">
-                        <a href="listar.htm" class="btn btn-dark"> Listado de Socios</a>
-                    </li>
-                    <li class="" aria-current="page"> 
-                        <a href="#" class="btn btn-dark"> Agregar Socios</a>
-                    </li>
-                </ol>                
+                             
             </nav>
-
+            <br>
             <form:form method="post" commandName="persona" modelAttribute="persona">
                 <form:errors path="*" element="div" cssClass="alert alert-danger"></form:errors>
                 <h1 class="text-center text-muted" ><u>AGREGAR NUEVO SOCIOS</u></h1>
+                <hr>
                 <p>
                 <form:label path="nombre">Nombre: </form:label>
                 <form:input path="nombre" cssClass="form-control"></form:input>
@@ -53,10 +47,19 @@
                 <form:label path="url_imagen">Direccion de la imagen: </form:label>
                 <form:input path="url_imagen" cssClass="form-control"></form:input>
                 </p>
+                <hr>
                 <p>
                 <input type="submit" value="AGREGAR NUEVO SOCIO" class="btn btn-dark">
                 </p>
             </form:form>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item" aria-current="page">
+                        <a href="listar.htm" class=""> Listado de Socios</a>  
+                    </li>
+                    <li class="breadcrumb-item" aria-current="page"> 
+                        <a href="#" class=""> Agregar Socios</a>
+                    </li>
+                </ol>   
         </div>
     </body>
 </html>

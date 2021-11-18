@@ -16,13 +16,16 @@
     <body>
         <br>
         <h1 class="text-center text-muted"><u>LISTADO DE SOCIOS</u></h1>
+        
         <div class="container-md">
         <p>
             <a href="<c:url value ="home.htm"></c:url>"class="btn btn-dark">
             Regresar</a>
             <a href="<c:url value ="add.htm"></c:url>"class="btn btn-dark">
             Crear nuevo socio</a>
+            <hr>
         </p>
+        
         <table class="table table-striped table-bordered table-hover">
             <thead>
                 <th>ID</th>
@@ -42,12 +45,13 @@
                         <td><c:out value="${dato.telefono}"></c:out></td>
                         <td><a href="ver.htm?id=${dato.id}" class="btn btn-dark">Ver Productos</a>
                             <a href="edit.htm?id=${dato.id}" class="btn btn-warning">Editar</a>
-                            <a href="" class="btn btn-danger">Eliminar</a>
+                            <a href="delete.htm?id=${dato.id}" class="btn btn-danger">Eliminar</a>
                         </td>
                     </tr>                    
                 </c:forEach>
             </tbody>
         </table>
+        <hr>
         </div>
     </body>
 </html>
