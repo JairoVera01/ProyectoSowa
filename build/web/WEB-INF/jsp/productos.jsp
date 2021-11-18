@@ -3,7 +3,7 @@
 
 <html>
 	<head>
-		<title>AldanaGo - Delivery</title>
+		<title>AldanaGo - Productos</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
                 <link rel="shortcut icon" href="${pageContext.request.contextPath}/resources/images/aldanago_logo.jpg">
@@ -25,7 +25,7 @@
 					<section id="one">
 						<header class="major">
                                                     <h2>Bienvenidos a AldanaGo<br />                                                       
-							Conoce a nuestro staff de socios.</h2>
+							Conoce nuestros PRODUCTOS.</h2>
 						</header>
 						<p>Contamos con un amplio staff de socios de diferentes tipos de comida, aperitivos, comida rapido y servicios. Nuestra flota de delivey se encagará de recoger 
                                                 tu producto y llevarlo al cliente final.</p>
@@ -34,7 +34,7 @@
 					<section id="two">
 						<h2>Nuestros socios:</h2>
                                                 <div class="row">
-                                                <c:forEach items="${datosPersona}" var="dato"> 
+                                                <c:forEach items="${datosProducto}" var="dato"> 
                                                     <article class="col-6 col-12-xsmall work-item">
 							<a  href="${dato.url_imagen}" class="image fit thumb">
                                                         <img src="${dato.url_imagen}" alt="" /></a>
@@ -51,7 +51,7 @@
          					<ul class="actions">
 						<li><a href="listar.htm" class="button">Listar Socios</a></li>
                                                 <li><a href="add.htm" class="button">Agregar Socio</a></li>
-                                                <li><a href="productos.htm" class="button">Ver productos</a></li>
+                                                <li><a href="#" class="button">Ver productos</a></li>
 						</ul>
 					</section>
 			</div>

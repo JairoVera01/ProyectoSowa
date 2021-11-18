@@ -3,14 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/jairo/Documents/NetBeansProjects/ProyectoSowa/web/WEB-INF/applicationContext.xml</file>
-            <file>file:/C:/Users/jairo/Documents/NetBeansProjects/ProyectoSowa/web/WEB-INF/jsp/login.jsp</file>
-            <file>file:/C:/Users/jairo/Documents/NetBeansProjects/ProyectoSowa/web/WEB-INF/jsp/index.jsp</file>
-            <file>file:/C:/Users/jairo/Documents/NetBeansProjects/ProyectoSowa/src/java/model/Emprendimientos.java</file>
-            <file>file:/C:/Users/jairo/Documents/NetBeansProjects/ProyectoSowa/web/WEB-INF/dispatcher-servlet.xml</file>
-            <file>file:/C:/Users/jairo/Documents/NetBeansProjects/ProyectoSowa/src/java/model/Motorizados.java</file>
-            <file>file:/C:/Users/jairo/Documents/NetBeansProjects/ProyectoSowa/src/java/model/Usuarios.java</file>
-            <file>file:/C:/Users/jairo/Documents/NetBeansProjects/ProyectoSowa/web/redirect.jsp</file>
+            <file>file:/C:/Users/jairo/Documents/NetBeansProjects/ProyectoSowa/web/WEB-INF/jsp/listar.jsp</file>
+            <file>file:/C:/Users/jairo/Documents/NetBeansProjects/ProyectoSowa/web/WEB-INF/jsp/home.jsp</file>
+            <file>file:/C:/Users/jairo/Documents/NetBeansProjects/ProyectoSowa/src/java/controller/AddController.java</file>
+            <file>file:/C:/Users/jairo/Documents/NetBeansProjects/ProyectoSowa/src/java/controller/HomeController.java</file>
+            <file>file:/C:/Users/jairo/Documents/NetBeansProjects/ProyectoSowa/src/java/controller/VerController.java</file>
+            <file>file:/C:/Users/jairo/Documents/NetBeansProjects/ProyectoSowa/src/java/controller/DeleteController.java</file>
+            <file>file:/C:/Users/jairo/Documents/NetBeansProjects/ProyectoSowa/src/java/controller/PersonaMapper.java</file>
+            <file>file:/C:/Users/jairo/Documents/NetBeansProjects/ProyectoSowa/src/java/controller/ListarController.java</file>
         </group>
     </open-files>
 </project-private>

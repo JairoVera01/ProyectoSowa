@@ -24,8 +24,7 @@
 				<!-- One -->
 					<section id="one">
 						<header class="major">
-                                                    <h2>Bienvenidos a AldanaGo<br />
-                                                        <hr>
+                                                    <h2>Bienvenidos a AldanaGo<br />                                                       
 							Conoce a nuestro staff de socios.</h2>
 						</header>
 						<p>Contamos con un amplio staff de socios de diferentes tipos de comida, aperitivos, comida rapido y servicios. Nuestra flota de delivey se encagará de recoger 
@@ -52,6 +51,7 @@
          					<ul class="actions">
 						<li><a href="listar.htm" class="button">Listar Socios</a></li>
                                                 <li><a href="add.htm" class="button">Agregar Socio</a></li>
+                                                <li><a href="productos.htm" class="button">Ver productos</a></li>
 						</ul>
 					</section>
 			</div>
