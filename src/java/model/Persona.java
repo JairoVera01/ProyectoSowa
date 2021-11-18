@@ -18,8 +18,10 @@ public class Persona {
     
      //Generamos el constructor y los metodos GET Y SET para acceder a los datos 
     public Persona(){
+        
     }
-       public Persona(int id, String nombre, String tipo_restaurante, String correo, String telefono, String resumen_cv, String url_imagen) {
+    
+    public Persona(int id, String nombre, String tipo_restaurante, String correo, String telefono, String resumen_cv, String url_imagen) {
         this.id = id;
         this.nombre = nombre;
         this.tipo_restaurante = tipo_restaurante;
@@ -28,6 +30,10 @@ public class Persona {
         this.resumen_cv = resumen_cv;
         this.url_imagen = url_imagen;
     }
+
+    
+
+    
        
     public int getId() {
         return id;

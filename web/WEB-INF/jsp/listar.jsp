@@ -41,8 +41,8 @@
                         <td><c:out value="${dato.correo}"></c:out></td>
                         <td><c:out value="${dato.telefono}"></c:out></td>
                         <td><a href="ver.htm?id=${dato.id}" class="btn btn-dark">Ver Productos</a>
-                            <a href="ver.htm?id=${dato.id}" class="btn btn-warning">Editar</a>
-                            <a href="ver.htm?id=${dato.id}" class="btn btn-danger">Eliminar</a>
+                            <a href="edit.htm?id=${dato.id}" class="btn btn-warning">Editar</a>
+                            <a href="" class="btn btn-danger">Eliminar</a>
                         </td>
                     </tr>                    
                 </c:forEach>

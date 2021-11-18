@@ -64,12 +64,12 @@
 						<li><a href="mailto:fj.verachamorro@gmail.com" target="_blank" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
                                                 <li><a download="" href="${pageContext.request.contextPath}../../resources/carta/carta_prueba.pdf" class="icon solid fa-download" ></a></li>
                                         </ul>
-                                    <div>
+                                        <div>
                                         <h1>Mapa de nuestro local:</h1>
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1379.7710083628083!2d-76.87656538034186!3d-12.003416520471527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c3b3b0f1e499%3A0xe2b0648e1ed8f3c5!2sPoliclinico%20Carapongo%20Medical%20Center!5e0!3m2!1ses-419!2spe!4v1637192746965!5m2!1ses-419!2spe" width="500" height="180" style="border-radius: 10px;" allowfullscreen="" loading="lazy"></iframe>
-                                    </div>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1379.7710083628083!2d-76.87656538034186!3d-12.003416520471527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c3b3b0f1e499%3A0xe2b0648e1ed8f3c5!2sPoliclinico%20Carapongo%20Medical%20Center!5e0!3m2!1ses-419!2spe!4v1637192746965!5m2!1ses-419!2spe" width="500px" height="180px" style="border-radius: 10px;" allowfullscreen="" loading="lazy"></iframe>
+                                        </div>                                  
 					<ul class="copyright">
-						<li>&copy;AldanaGo <b> Flota de delivery</b></li>
+						<li>&copy;AldanaGo <b> Servicio de delivery</b></li>
 					</ul>
 				</div>
 			</footer>

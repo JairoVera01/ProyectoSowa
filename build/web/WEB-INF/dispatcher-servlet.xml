@@ -22,6 +22,7 @@
                 <prop key="ver.htm">verController</prop>
                 <prop key="listar.htm">listarController</prop>
                 <prop key="add.htm">addController</prop>
+                <prop key="edit.htm">editController</prop>
             </props>
         </property>
     </bean>
@@ -41,5 +42,5 @@
     <bean name="verController" class="controller.VerController"></bean>
     <bean name="listarController" class="controller.ListarController"></bean>
     <bean name="addController" class="controller.AddController"></bean>
-
+    <bean name="editController" class="controller.EditController"></bean>
 </beans>
