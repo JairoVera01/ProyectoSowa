@@ -13,15 +13,17 @@ public class Productos {
     private String nombre_socio;
     private String producto;
     private float precio;
+    private String url_producto;
 
     public Productos() {
     }
 
-    public Productos(int id, String nombre_socio, String producto, float precio) {
+    public Productos(int id, String nombre_socio, String producto, float precio, String url_producto) {
         this.id = id;
         this.nombre_socio = nombre_socio;
         this.producto = producto;
         this.precio = precio;
+        this.url_producto = url_producto;
     }
 
     public int getId() {
@@ -55,6 +57,16 @@ public class Productos {
     public void setPrecio(float precio) {
         this.precio = precio;
     }
+
+    public String getUrl_producto() {
+        return url_producto;
+    }
+
+    public void setUrl_producto(String url_producto) {
+        this.url_producto = url_producto;
+    }
+
+    
     
     
 }

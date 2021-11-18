@@ -32,7 +32,7 @@
 					</section>
 				<!-- Two -->
 					<section id="two">
-						<h2>Nuestros socios:</h2>
+						<h2>NUESTROS SOCIOS:</h2>
                                                 <div class="row">
                                                 <c:forEach items="${datosPersona}" var="dato"> 
                                                     <article class="col-6 col-12-xsmall work-item">

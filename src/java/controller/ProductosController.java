@@ -36,10 +36,10 @@ public class ProductosController {
         return mav;
     }       
     //Se consiguen los datos de PERSONA por consulta sql : "select * from tbl_persona
-    @ModelAttribute("datosPersona")
+    @ModelAttribute("datosProducto")
     public List<Productos> datosProductos(){
         List<Productos> listaProducto = new ArrayList<Productos>();
-        String sql = "select * from tbl_socio_productos";
+        String sql = "select * from tbl_socios_producto";
         listaProducto = jdbcTemplate.query(sql,new ProductoMapper());
         return listaProducto;
     }
