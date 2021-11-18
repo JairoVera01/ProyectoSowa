@@ -3,9 +3,10 @@
 
 <html>
 	<head>
-		<title>Examen T3 Sowa - UPN</title>
+		<title>AldanaGo - Delivery</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+                <link rel="shortcut icon" href="${pageContext.request.contextPath}/resources/images/aldanago_logo.jpg">
 		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/assets/css/main.css" />
 	</head>
 	<body class="is-preload">

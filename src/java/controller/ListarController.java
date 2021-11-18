@@ -33,7 +33,7 @@ public class ListarController {
     @ModelAttribute("datosPersona")
     public List<Persona> datosPersona(){
     List<Persona> listaPersona = new ArrayList<Persona>();
-    String sql = "select * from tbl_persona";
+    String sql = "select * from tbl_socios";
     listaPersona = jdbcTemplate.query(sql,new PersonaMapper());
     return listaPersona;
     }

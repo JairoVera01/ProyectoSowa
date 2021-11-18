@@ -61,7 +61,7 @@ public class AddController {
             mav.addObject("persona",new Persona());
             return mav;
         }else{
-            this.jdbcTemplate.update("insert into tbl_persona(nombre,tipo_restaurante"
+            this.jdbcTemplate.update("insert into tbl_socios(nombre,tipo_restaurante"
                 +",correo,telefono,resumen_cv,url_imagen) values(?,?,?,?,?,?)",
                     persona.getNombre(),persona.gettipo_restaurante(),
                     persona.getCorreo(),persona.getTelefono(),

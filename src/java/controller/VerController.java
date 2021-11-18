@@ -53,7 +53,7 @@ public class VerController {
     //SETEAMOS LOS DATOSS OBTENIDOS - VER CONTROLLER
     private Persona selectPersona(int id) {
         final Persona persona = new Persona();
-        String sql = "select *from tbl_persona where id='"+id+"'";
+        String sql = "select *from tbl_socios where id='"+id+"'";
         return (Persona) jdbcTemplate.query(sql, new ResultSetExtractor<Persona>(){
             public Persona extractData(ResultSet rs) throws SQLException,DataAccessException{
                 if(rs.next()){

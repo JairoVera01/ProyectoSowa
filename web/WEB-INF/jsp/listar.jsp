@@ -10,10 +10,12 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <title>Listado de socios</title>
+        <link rel="shortcut icon" href="${pageContext.request.contextPath}/resources/images/aldanago_logo.jpg">
+        <title>AldanaGo - Listar Socios</title>
     </head>
     <body>
-        <h1 class="text-center text-muted">Listado de Socios</h1>
+        <br>
+        <h1 class="text-center text-muted"><u>LISTADO DE SOCIOS</u></h1>
         <div class="container-md">
         <p>
             <a href="<c:url value ="home.htm"></c:url>"class="btn btn-dark">
@@ -38,7 +40,10 @@
                         <td><c:out value="${dato.tipo_restaurante}"></c:out></td>
                         <td><c:out value="${dato.correo}"></c:out></td>
                         <td><c:out value="${dato.telefono}"></c:out></td>
-                        <td><a href="ver.htm?id=${dato.id}" class="btn btn-dark">Ver Información</a>
+                        <td><a href="ver.htm?id=${dato.id}" class="btn btn-dark">Ver Productos</a>
+                            <a href="ver.htm?id=${dato.id}" class="btn btn-warning">Editar</a>
+                            <a href="ver.htm?id=${dato.id}" class="btn btn-danger">Eliminar</a>
+                        </td>
                     </tr>                    
                 </c:forEach>
             </tbody>

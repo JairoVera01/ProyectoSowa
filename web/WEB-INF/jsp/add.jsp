@@ -10,25 +10,25 @@
     <head>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <link rel="shortcut icon" href="${pageContext.request.contextPath}/resources/images/aldanago_logo.jpg">
+        <title>AldanaGo - Añadir Socios</title>
     </head>
     <body>
         <div class="container-md">
             <nav aria-label ="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item" aria-current="page">
-                        <a href="listar.htm">Listado de Personas</a>
+                        <a href="listar.htm" class="btn btn-dark"> Listado de Socios</a>
                     </li>
-                    <li class="breadcrumb-item active" aria-current="page">
-                        
-                        <a href="#">Agregar Persona</a>
+                    <li class="" aria-current="page"> 
+                        <a href="#" class="btn btn-dark"> Agregar Socios</a>
                     </li>
                 </ol>                
             </nav>
 
             <form:form method="post" commandName="persona" modelAttribute="persona">
                 <form:errors path="*" element="div" cssClass="alert alert-danger"></form:errors>
-                <h1 class="text-center text-muted" >Agregar nueva persona</h1>
+                <h1 class="text-center text-muted" ><u>AGREGAR NUEVO SOCIOS</u></h1>
                 <p>
                 <form:label path="nombre">Nombre: </form:label>
                 <form:input path="nombre" cssClass="form-control"></form:input>
@@ -54,7 +54,7 @@
                 <form:input path="url_imagen" cssClass="form-control"></form:input>
                 </p>
                 <p>
-                <input type="submit" value="Agregar Nueva Personas" class="btn btn-dark">
+                <input type="submit" value="AGREGAR NUEVO SOCIO" class="btn btn-dark">
                 </p>
             </form:form>
         </div>
