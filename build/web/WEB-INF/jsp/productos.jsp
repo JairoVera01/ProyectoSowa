@@ -38,7 +38,7 @@
 							<a  href="${dato.url_producto}" class="image fit thumb">
                                                         <img src="${dato.url_producto}" alt="" /></a>
                                                         <h3>
-                                                        <a href="ver.htm?id=${dato.id}" style="color: black">
+                                                        <a href="verProductos.htm?id=${dato.id}" style="color: black">
                                                             <h2>Socio: ${dato.nombre_socio}
                                                                
                                                             </h2> 

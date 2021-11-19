@@ -43,7 +43,7 @@
                         <td><c:out value="${dato.tipo_restaurante}"></c:out></td>
                         <td><c:out value="${dato.correo}"></c:out></td>
                         <td><c:out value="${dato.telefono}"></c:out></td>
-                        <td><a href="ver.htm?id=${dato.id}" class="btn btn-dark">Ver Productos</a>
+                        <td><a href="ver.htm?id=${dato.id}" class="btn btn-dark">Ver Socio</a>
                             <a href="edit.htm?id=${dato.id}" class="btn btn-warning">Editar</a>
                             <a href="delete.htm?id=${dato.id}" class="btn btn-danger">Eliminar</a>
                         </td>

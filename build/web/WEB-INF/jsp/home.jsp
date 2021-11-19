@@ -51,7 +51,7 @@
          					<ul class="actions">
 						<li><a href="listar.htm" class="button">Listar Socios</a></li>
                                                 <li><a href="add.htm" class="button">Agregar Socio</a></li>
-                                                <li><a href="productos.htm" class="button">Ver productos</a></li>
+                                                <li><a href="productos.htm" class="button">Ver Productos</a></li>
 						</ul>
 					</section>
 			</div>

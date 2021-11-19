@@ -25,6 +25,7 @@
                 <prop key="edit.htm">editController</prop>
                 <prop key="delete.htm">deleteController</prop>
                 <prop key="productos.htm">productosController</prop>
+                <prop key="verProductos.htm">verProductosController</prop>
             </props>
         </property>
     </bean>
@@ -47,4 +48,5 @@
     <bean name="editController" class="controller.EditController"></bean>
     <bean name="deleteController" class="controller.DeleteController"></bean>
     <bean name="productosController" class="controller.ProductosController"></bean>
+    <bean name="verProductosController" class="controller.VerProductosController"></bean>
 </beans>
