@@ -54,7 +54,7 @@
                                     <hr>
                                     <ul class="actions">
                                         <li><a href="listarProductos.htm" class="button">Listar Productos</a></li>
-                                        <li><a href="#" class="button">Agregar Productos</a></li>
+                                        <li><a href="addProducto.htm" class="button">Agregar Productos</a></li>
                                         <li><a href="home.htm" class="button" style="background-color: rgba(255,0,0,0.3)">Ver Socios</a></li>
                                     </ul>
                                 </section>

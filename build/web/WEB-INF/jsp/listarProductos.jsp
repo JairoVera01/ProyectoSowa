@@ -21,7 +21,7 @@
         <p>
             <a href="<c:url value ="productos.htm"></c:url>"class="btn btn-dark">
             Regresar</a>
-            <a href="<c:url value =""></c:url>"class="btn btn-dark">
+            <a href="<c:url value ="addProducto.htm"></c:url>"class="btn btn-dark">
             Crear nuevo producto</a>
             <hr>
         </p>
@@ -43,6 +43,7 @@
                         <td><c:out value="S/.${dato.precio}"></c:out></td>
                         <td>
                             <a href="verProductos.htm?id=${dato.id}" class="btn btn-dark">Ver Producto</a>
+                            
                         </td>
                     </tr>                    
                 </c:forEach>

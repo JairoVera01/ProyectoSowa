@@ -19,13 +19,13 @@ public class ProductoValidar implements Validator{
     //Validamos que los campos no esten vacios
     public void validate(Object o, Errors errors){
         Productos productos = (Productos)o;
-        ValidationUtils.rejectIfEmptyOrWhitespace(errors,"nombre",
+        ValidationUtils.rejectIfEmptyOrWhitespace(errors,"nombre_socio",
                 "required.nombre_socio","ERROR:El campo nombre_socio es obligatorio!!");
-        ValidationUtils.rejectIfEmptyOrWhitespace(errors,"tipo_restaurante",
+        ValidationUtils.rejectIfEmptyOrWhitespace(errors,"producto",
                 "required.producto","ERROR:El campo producto es obligatorio!!");
-        ValidationUtils.rejectIfEmptyOrWhitespace(errors,"correo",
+        ValidationUtils.rejectIfEmptyOrWhitespace(errors,"precio",
                 "required.precio","ERROR:El campo precio es obligatorio!!");
-        ValidationUtils.rejectIfEmptyOrWhitespace(errors,"telefono",
+        ValidationUtils.rejectIfEmptyOrWhitespace(errors,"url_producto",
                 "required.url_video","ERROR:El campo url_video es obligatorio!!");
           
         

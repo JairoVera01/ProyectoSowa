@@ -27,7 +27,7 @@
                 <prop key="productos.htm">productosController</prop>
                 <prop key="verProductos.htm">verProductosController</prop>
                 <prop key="listarProductos.htm">listarProductosController</prop>
-               
+                <prop key="addProducto.htm">addProductoController</prop>
             </props>
         </property>
     </bean>
@@ -51,7 +51,6 @@
     <bean name="deleteController" class="controller.DeleteController"></bean>
     <bean name="productosController" class="controller.ProductosController"></bean>
     <bean name="verProductosController" class="controller.VerProductosController"></bean>
-     
-
     <bean name="listarProductosController" class="controller.ListarProductosController"></bean>
+    <bean name="addProductoController" class="controller.AddProductoController"></bean>
 </beans>

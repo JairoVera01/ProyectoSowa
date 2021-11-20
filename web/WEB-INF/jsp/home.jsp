@@ -62,7 +62,7 @@
                                             <li><a href="https://www.instagram.com/aldanago__/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 						<li><a href="https://wa.me/51965816742"  target="_blank" class="icon brands fa-whatsapp"><span class="label">WhatsApp</span></a></li>
 						<li><a href="mailto:fj.verachamorro@gmail.com" target="_blank" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-                                                <li><a download="" href="${pageContext.request.contextPath}../../resources/carta/carta_prueba.pdf" class="icon solid fa-download" ></a></li>
+                                                <li><a download="" href="#" class="icon solid fa-download" ></a></li>
                                         </ul>
                                         <div>
                                         <h1>Mapa de nuestro local:</h1>
