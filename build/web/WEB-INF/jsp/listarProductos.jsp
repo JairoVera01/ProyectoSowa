@@ -32,7 +32,7 @@
                 <th>Nombre Socio</th>
                 <th>Producto</th>
                 <th>Precio</th>
-                <th>Url Producto</th>
+                <th>Opciones</th>
             </thead>
             <tbody>
                  <c:forEach items="${datosProducto}" var="dato">
