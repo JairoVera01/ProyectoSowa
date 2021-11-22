@@ -34,7 +34,7 @@
                                     <h2>NUESTROS PRODUCTOS:</h2>
                                     <div class="row">
                                         <c:forEach items="${datosProducto}" var="dato"> 
-                                            <article class="col-6 col-12-xsmall work-item">
+                                            <article class="col-4 col-medium work-item">
 							<a  href="${dato.url_producto}" class="image fit thumb">
                                                         <img src="${dato.url_producto}" alt="" /></a>
                                                         <h3>

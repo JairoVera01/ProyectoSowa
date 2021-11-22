@@ -35,7 +35,7 @@
 						<h2>NUESTROS SOCIOS:</h2>
                                                 <div class="row">
                                                 <c:forEach items="${datosPersona}" var="dato"> 
-                                                    <article class="col-6 col-12-xsmall work-item">
+                                                    <article class="col-4 col-medium work-item">
 							<a  href="${dato.url_imagen}" class="image fit thumb">
                                                         <img src="${dato.url_imagen}" alt="" /></a>
                                                         <h3 >
@@ -62,7 +62,8 @@
                                             <li><a href="https://www.instagram.com/aldanago__/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 						<li><a href="https://wa.me/51965816742"  target="_blank" class="icon brands fa-whatsapp"><span class="label">WhatsApp</span></a></li>
 						<li><a href="mailto:fj.verachamorro@gmail.com" target="_blank" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-                                                <li><a download="" href="#" class="icon solid fa-download" ></a></li>
+                                                <li><a download="" href="../../resources/carta/carta_prueba.pdf" class="icon solid fa-download" ></a></li>
+                                                
                                         </ul>
                                         <div>
                                         <h1>Mapa de nuestro local:</h1>
