@@ -26,8 +26,6 @@ public class ProductoValidar implements Validator{
         ValidationUtils.rejectIfEmptyOrWhitespace(errors,"precio",
                 "required.precio","ERROR:El campo precio es obligatorio!!");
         ValidationUtils.rejectIfEmptyOrWhitespace(errors,"url_producto",
-                "required.url_video","ERROR:El campo url_video es obligatorio!!");
-          
-        
+                "required.url_video","ERROR:El campo url_video es obligatorio!!");              
 }
 }
